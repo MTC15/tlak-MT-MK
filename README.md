@@ -10,5 +10,7 @@
 - stikalo za vklop in izklop
 - pleksi steklo za izdelavo ohišja
 
+- najna naprava ne potrebuje izračunov.
+
 -fritzing vezava:
 ![image](https://user-images.githubusercontent.com/97598894/171343622-c079a7b8-bb0c-468c-87f6-98ebf74455f2.png)
