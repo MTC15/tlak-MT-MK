@@ -28,7 +28,7 @@ Koda programa:
  
 SFE_BMP180 pressure;
  
-#define ALTITUDE 1655.0 //replace 1655.0 with your current city altitude
+#define ALTITUDE 1655.0
  
 void setup()
 {
@@ -63,7 +63,6 @@ void loop()
     status = pressure.getTemperature(T);
     if (status != 0)
     {
-      // Print out the measurement:
       Serial.print("Temperature: ");
       Serial.print(T,2);
       Serial.print(" °C, ");
